@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pixabay Image Gallery</title>
+</head>
+<body>
+    <header>
+        <h1>Pixabay Image Gallery</h1>
+        <input type="text" id="search" placeholder="Search images...">
+        <button id="searchBtn">Search</button>
+    </header>
+
+    <main id="imageContainer"></main>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+        <a id="downloadLink" href="#" download>Download Image</a>
+        <button id="shareBtn">Share</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
